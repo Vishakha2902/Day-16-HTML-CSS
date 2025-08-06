@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> College Landing page using bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stylesheet">
+    <!-- adding bootstrap link -->
+</head>
+<body>
+    <!-- Nav bar -->
+    <nav class="Navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class=" navbar-brand" href="#">Edu Future Institution</a>
+
+
+        <div class="collaspse navbar-collpase">
+            <ul class="navbar-nav ml-auto">
+                <li classes="nav-item"><a classs="nav-link" href="#" >home</a></li>
+                <li classes="nav-item"><a classs="nav-link" href="#" >Courses</a></li>
+                <li classes="nav-item"><a classs="nav-link" href="#" >Apply online</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+     <!-- hero card -->
+      <div class="container mt-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h2> Welcome to our institute Edu Future</h2>
+                <p>Your future begins here !! Explore world class education opportunity</p>
+                <button class="btn btn-success"> Explore courses</button>
+            </div>
+        </div>
+      </div>
+      <!-- Courses Card -->
+       <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card texr-center">
+                    <div class="card-body">
+                        <h5 class="card-title"> Engineering</h5>
+                        <p class="card-text">4 year Technical program in various domains.</p>
+                        <button class="bn btn-primary">Know more</button>
+                    </div>
+                </div>
+            </div>
+           <div class="col md-4">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h5 class="card-title"> Arts</h5>
+                        <p class="card-text">Build creativity and analytical thinking</p>
+                        <button class="bn btn-primary">Know more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       <!-- Admission port -->
+        <div class="container mt-5">
+            <h3> Admission form</h3>
+            <div id="admissionform">
+            <form action="" id="admissionform">
+                <div class="form-group">
+                    <lable for="name">Name:</lable>
+                    <input type="text" id ="name" class="from-control">
+                </div>
+
+                <div class="form-group">
+                    <lable for="name">Email:</lable>
+                    <input type="email" id ="email" name="email" class="from-control">
+                </div>
+
+
+                <div class="form-group">
+                    <lable for="name">Contact Number:</lable>
+                    <input type="text" id ="contact" name="contact" class="from-control">
+                </div>
+
+
+                <div class="form-group">
+                    <lable for="name">Courses:</lable>
+                    <Select name="" id ="courses" class="from-control">
+                        <option value="">---Select---</option>
+                        <option value="">Engineering</option>
+                        <option value="">Management</option>
+                        <option value="">Arts and Science</option>
+                    </Select>
+
+
+                </div>
+                <button type="submit" class="btn btn primary">Submit</button>
+            </form>
+            <div id="SubmitionDate" class="mt-4"></div>
+            <!-- we will use this dynamically to diaplay or view the content -->
+        </div>
+    </div>
+        <!-- for Alert we will use javascript  -->
+</body>
+</html>

@@ -1,0 +1,71 @@
+/*Base Style*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: ex;
+    color: #333;
+
+}
+
+/* Profile card- Demonstration Box Model */
+.profile-card{
+        background-color: white;
+        width: 300px;
+        padding: 200px;
+        margin: 20px;
+        border-radius: 10px;
+        border: 1px solid #e1e1e1;
+        box-shadow: rgba(200, , blue); 
+        /* Box Shadow for depth */
+        text-align: center;
+        transition: none;
+}
+/* Image Styling */
+.profile-img{
+        width:150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #4CAF50;
+        margin-bottom: 15px;
+
+}
+/* text Styling */
+
+h1{
+    color: #2c3e50;
+    margin: 10px 0 5px 0;
+    /* top right bottom left */
+}
+title{
+    color: #7f8c8d;
+    font-style: italic;
+    margin-bottom: 20px;
+
+}
+
+.bio{
+    line-height: 1.6;
+    padding: 0 15px;
+    /* horizontal padding */
+    margin-bottom: 20px;
+}
+
+/* Contact Info Section */
+/* contact info section */
+.contact-info{
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top:20px;
+    border-left: 4px solid #4caf50;
+}
+/*  */
+.contact-info p{
+margin: 8px 0;
+/* vertical space */
+}
